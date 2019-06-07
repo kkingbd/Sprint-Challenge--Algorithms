@@ -14,8 +14,13 @@ Recursive call, everytime call itself n time.
 
 ## Exercise II
 
-I would apply merge sort. First, I will drop from half of the building height, if egg breaks, I will go down, else will move up. then I will keep continue same process until I find where egg won't break.
+Binary search. The reason - the floors are already sorted.
+    - find the middle floor
+    - drop egg
+    - if egg breaks:
+        go down
+    - else change middle floor to bottom. 
 
-_n_ = stories
-_n_  >= _f_ egg breaks 
-_n_ < _f_ egg don't break
+     repeat same process until _f_ is found.
+
+ Time complexity will be : 0 (log n)
